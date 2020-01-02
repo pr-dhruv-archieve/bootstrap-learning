@@ -1,0 +1,13 @@
+==> container class
+-------------------
+--> .container class provide a responsive fixed width container.
+    -> .container class provide a default margin form left and right side of the page by default.
+
+--> .container-fluid class provide a full width container, spanning the entire width of the viewport.
+    -> .container class doesn't provide a default margin form left and right side of the page by default. It consider full width of the page.
+
+==> Bootstrap typography(typography is a appearance and a way of representation of text, and how we can change that)
+------------------------
+--> Bootstrap uses a default font-size of 16px, and its line-height is 1.5
+--> Default font-family is "Helvetica Neue", helvetica, Arial, sans-serif.
+--> All <p> tags elements have margin-top:0 and margin-bottom: 1rem(1 rem = 16 pixel)
