@@ -9,5 +9,45 @@
 ==> Bootstrap typography(typography is a appearance and a way of representation of text, and how we can change that)
 ------------------------
 --> Bootstrap uses a default font-size of 16px, and its line-height is 1.5
+
 --> Default font-family is "Helvetica Neue", helvetica, Arial, sans-serif.
+
 --> All <p> tags elements have margin-top:0 and margin-bottom: 1rem(1 rem = 16 pixel)
+
+--> display class
+    -> display class is a typography in which we are increasing the size of the content but not in bold style.
+    -> There ara four types of display > display-1, display-2, display-3, display-4
+
+--> font weights and style
+    -> class 'font-weight-bold' is used for the make the content bold.
+    -> class 'font-weight-bolder' is used for the make the content more bolder.
+    -> class 'font-weight-normal' is used to make the content normal. It removes all the weights like italic, bold etc.
+    -> class 'font-weight-light' is going to make the content light
+    -> class 'font-weight-lighter' is going to make the content more lighter
+    -> class 'font-italic' is used to make the content in italic style.
+    -> class 'small' is used to make the content small just like <small> tag
+
+--> text- classes
+    -> 'text-center' is used to make the content appeared in the center position.
+    -> 'text-uppercase' is used to convert all the content in the upper case.
+
+
+Some HTML tags
+--------------
+--> <small></small> tag is used to display something in very small font-size
+
+--> <mark></mark> tag is used to highlight the content.
+
+--> <abbr title="Full Form"> Short Name<abbr> is used to represents the abbrevation
+
+--> <blockquote class="blockquote">
+        Some definition
+        <p class="blockquote-footer">Who gave the definition</p>
+    </blockquote>
+    this is used to represents the test like we saw in the books 'After the definition writer name is shown with the dash after the definition'
+
+--> <code></code>, it changes the color of the content like we see in the content code is written in the different color.
+
+--> <kbd></kdb> this tag name is "keyboard", it highlight the content.
+
+--> <pre> tag doesn't change the content structure. It displays the content as defined in the tag itself. It doesn't manege the spaces.
