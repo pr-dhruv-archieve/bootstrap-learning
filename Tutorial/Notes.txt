@@ -31,7 +31,43 @@
     -> 'text-center' is used to make the content appeared in the center position.
     -> 'text-uppercase' is used to convert all the content in the upper case.
 
+--> text colors
+    -> 'text-muted' means dark silver
+    -> 'text-primary' means light blue
+    -> 'text-success' means green
+    -> 'text-info' means ocean
+    -> 'text-warning' means yellow
+    -> 'text-danger' means red
+    -> 'text-secondary' means dark silver
+    -> 'text-white' means white color
+    -> 'text-white-50 ' means white color
+    -> 'text-dark' means 80% black      generally used in nav bar
+    -> 'text-light' means white color   generally used in nav bar
 
+    -> if we want to provide the custom color then we have specify in the style tag in 'color' attribute like 'color:green;'
+        because bootstrap provide only 10 pre-defined color. Those color are defined above.
+    -> Simply overriding the value of color doesn't change of the content, because bootstrap forces the browser to use the classes defined by the bootstrap.
+        so if we want to provide our own properties then we should use "!important;" after each value that we want to override.
+
+--> background colors
+    -> 'bg-primary' means blue
+    -> 'bg-success' means green
+    -> 'bg-info' means ocean
+    -> 'bg-warning' means yellow
+    -> 'bg-danger' means  red
+    -> 'bg-secondary' means dark silver
+    -> 'bg-dark' means 80* black
+    -> 'bg-light' means very light color (like 2% black and 98% white)
+    -> 'bg-transparent' means transparent background
+
+    -> if we want to provide the custom background-color then we have specify in the style tag in 'background-color' attribute like 'background-color:green;'
+        because bootstrap provide only 8 pre-defined color. Those color are defined above.
+
+    -> Simply overriding the value of color doesn't change of the content, because bootstrap forces the browser to use the classes defined by the bootstrap.
+        so if we want to provide our own properties then we should use "!important;" after each value that we want to override.
+    -> If we have applied any class which doesn't exist then at the time of overriding !important; is not required.
+        Ex: bg-muted is not a class in bootstrap so in this case if we override the value for the background color then background will reflect
+        but in any pre-defined 'bg-' class if we are trying to override the background color then "!important;" is required.
 Some HTML tags
 --------------
 --> <small></small> tag is used to display something in very small font-size
